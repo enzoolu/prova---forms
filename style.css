@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shizuru&family=Source+Sans+Pro:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+header .logo {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+main {
+    padding-left: 50px;
+    background: rgb(239,1,7);
+    background: linear-gradient(90deg, rgb(58, 49, 192) 1%, rgb(156, 53, 197) 99%);
+}
+
+.form1 {
+    padding-top: 40px;
+    width: 60%;
+}
+
+.form1 label {
+    padding: 5px;
+}
+
+.form2 {
+    padding-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form2 label {
+    padding: 5px;
+}
+
+.form3 {
+    padding-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column
+}
+
+.form3 label {
+    padding: 5px;
+}
+
+.form4 {
+    padding-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column
+}
+
+.form4 label {
+    padding: 5px;
+}
+
+.form5 {
+    padding-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column
+}
+
+.form5 label {
+    padding: 5px;
+}
+
+.form6 {
+    padding-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column
+}
+
+.form6 label {
+    padding: 5px;
+}
+
+input {
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+hr {
+    margin-top: 25px;
+    width: 20%;
+}
+
+.cores {
+    margin-top: 15px;
+}
+
+.restricao {
+    margin-top: 15px;
+}
+
+.enviar {
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.enviar:hover {
+    color: white;
+    background-color: black;
+}
+
+main h3 {
+    padding-top: 25px;
+    width: 65%;
+    padding-bottom: 15px;
+}
